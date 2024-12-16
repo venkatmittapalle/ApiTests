@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa8755fc-1baf-443a-8c3e-a7f18a7df268" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gorestApiTest/CreateUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gorestApiTest/CreateUserBySerialization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gorestApiTest/DeleteUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gorestApiTest/GetGorestUserList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gorestApiTest/GetUserList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gorestApiTest/UptadeUserPUT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gorestApiTest/ValidateWithJsonPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gorestCrud/CreateUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gorestCrud/GetUserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gorestCrud/GetUserList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gorestCrud/UptadaPatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mockDB/MockDB2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GetUserList">
+  <component name="RunManager" selected="JUnit.DeleteUser">
     <configuration name="CreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="API" />
       <extension name="coverage">
@@ -74,18 +79,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateUserBySerialization.testSerialization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gorestApiTest.*" />
+          <option name="PATTERN" value="gorestCrud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="gorestApiTest" />
-      <option name="MAIN_CLASS_NAME" value="gorestApiTest.CreateUserBySerialization" />
-      <option name="METHOD_NAME" value="testSerialization" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="gorestCrud" />
+      <option name="MAIN_CLASS_NAME" value="gorestCrud.DeleteUser" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeleteUser" />
         <item itemvalue="JUnit.GetUserList" />
         <item itemvalue="JUnit.GetUserList.createUserList" />
         <item itemvalue="JUnit.GetUserList.getUserList" />
         <item itemvalue="JUnit.CreateUser" />
-        <item itemvalue="JUnit.CreateUserBySerialization.testSerialization" />
       </list>
     </recent_temporary>
   </component>
@@ -177,28 +181,18 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/gorestCrud/GetUserList.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/gorestCrud/CreateUser.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/gorestCrud/CreateUser.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/gorestApiTest/CreateUserBySerialization.java</url>
           <line>25</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/gorestCrud/GetUserList.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/gorestCrud/GetUserList.java</url>
-          <line>28</line>
+          <line>27</line>
           <properties class="gorestCrud.GetUserList" method="getUserList">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

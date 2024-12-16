@@ -10,6 +10,7 @@ import static io.restassured.RestAssured.*;
 public class DeleteUser {
 	
 	@Test
+
 	public void deleteUser() {
 		String url="https://gorest.co.in/public/v1/users/7582442";
 		Response response=given()
@@ -19,6 +20,7 @@ public class DeleteUser {
 		int statusCode=response.getStatusCode();
 		System.out.println(statusCode);
 		response.prettyPrint();
+
 		
 	}
 

@@ -6,7 +6,6 @@ import static org.junit.Assert.assertEquals;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.restassured.http.ContentType;
 import mockDB.MockDB;
-import mockDB.MockDB2;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -31,7 +30,10 @@ public class GetUserList {
         // 1.Validate Status code
         //validate the API response body with MockDB Class using for loop within TestNG Assertion
         //Hint: You can fetch Api response as jsonPath and store them in the List
+
         String urlGET = "https://gorest.co.in/public/v2/users";
+
+
 
         Response response = RestAssured.given()
                 .when()
@@ -39,7 +41,6 @@ public class GetUserList {
                 .then()
                 .statusCode(200)
                 .extract().response();
-
         List<Integer> actualIds = response.jsonPath().getList("id");
         List<String> actualNames = response.jsonPath().getList("name");
         List<String> actualEmails = response.jsonPath().getList("email");
@@ -65,14 +66,14 @@ public class GetUserList {
      Create POST endpoint using below URL
      Create requestBody using MAP(key-value) for name,email,gender,status
      pass Header as : .header("Authorization","Bearer a73a75c54b75d9eed785a0546edf621dd893fe64643aa61b86d73512ab5eb505")
-     validate the only HTTP status Code using Assertion
+     validate the only HTTP status Code using Assertions
       */
 
         String urlPOST = "https://gorest.co.in/public/v1/users";
 
         Map<String, Object> requestBody = new HashMap<>();
         requestBody.put("name", "Selahattin Ejder");
-        requestBody.put("email", "ejd334@gmail.com");
+        requestBody.put("email", "ejd3wqe4@gmail.com");
         requestBody.put("gender", "Male");
         requestBody.put("status", "Active");
 
