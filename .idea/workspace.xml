@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa8755fc-1baf-443a-8c3e-a7f18a7df268" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/gorestCrud/Crud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/suites/testNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gorestApiTest/CreateUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gorestApiTest/CreateUserBySerialization.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gorestApiTest/DeleteUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gorestApiTest/GetGorestUserList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gorestApiTest/GetUserList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gorestApiTest/UptadeUserPUT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gorestApiTest/ValidateWithJsonPath.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gorestCrud/CreateUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gorestCrud/GetUserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gorestCrud/GetUserList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gorestCrud/UptadaPatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mockDB/MockDB2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gorestCrud/DeleteUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gorestCrud/GetUserList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gorestCrud/TestScenarios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gorestCrud/UptadeUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/payloadBuilder/GorestRequestBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/configs/apiConfigs.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configs/apiConfigs.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/schema/dashboardSchema.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testData/reponseData.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testData/requestData.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testData/schema.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -59,11 +61,12 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/suites" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeleteUser">
+  <component name="RunManager">
     <configuration name="CreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="API" />
       <extension name="coverage">
@@ -75,6 +78,53 @@
       <option name="PACKAGE_NAME" value="gorestCrud" />
       <option name="MAIN_CLASS_NAME" value="gorestCrud.CreateUser" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Crud" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gorestCrud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gorestCrud" />
+      <option name="MAIN_CLASS_NAME" value="gorestCrud.Crud" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Crud.createUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gorestCrud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gorestCrud" />
+      <option name="MAIN_CLASS_NAME" value="gorestCrud.Crud" />
+      <option name="METHOD_NAME" value="createUserList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Crud.getUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gorestCrud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gorestCrud" />
+      <option name="MAIN_CLASS_NAME" value="gorestCrud.Crud" />
+      <option name="METHOD_NAME" value="getUserList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,59 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gorestCrud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gorestCrud" />
-      <option name="MAIN_CLASS_NAME" value="gorestCrud.GetUserList" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetUserList.createUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gorestCrud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gorestCrud" />
-      <option name="MAIN_CLASS_NAME" value="gorestCrud.GetUserList" />
-      <option name="METHOD_NAME" value="createUserList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetUserList.getUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gorestCrud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gorestCrud" />
-      <option name="MAIN_CLASS_NAME" value="gorestCrud.GetUserList" />
-      <option name="METHOD_NAME" value="getUserList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Crud" />
+        <item itemvalue="JUnit.Crud.getUserList" />
         <item itemvalue="JUnit.DeleteUser" />
-        <item itemvalue="JUnit.GetUserList" />
-        <item itemvalue="JUnit.GetUserList.createUserList" />
-        <item itemvalue="JUnit.GetUserList.getUserList" />
+        <item itemvalue="JUnit.Crud.createUserList" />
         <item itemvalue="JUnit.CreateUser" />
       </list>
     </recent_temporary>
@@ -171,11 +174,6 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/gorestCrud/DeleteUser.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/mockDB/MockDB.java</url>
           <line>11</line>
           <option name="timeStamp" value="3" />
@@ -186,14 +184,14 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/gorestCrud/GetUserList.java</url>
-          <line>19</line>
+          <url>file://$PROJECT_DIR$/src/test/java/gorestCrud/Crud.java</url>
+          <line>7</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/gorestCrud/GetUserList.java</url>
-          <line>27</line>
-          <properties class="gorestCrud.GetUserList" method="getUserList">
+          <url>file://$PROJECT_DIR$/src/test/java/gorestCrud/Crud.java</url>
+          <line>15</line>
+          <properties class="gorestCrud.Crud" method="getUserList">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
