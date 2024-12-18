@@ -1,4 +1,4 @@
-package mockDB;
+package com.walmart.mockDB;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;

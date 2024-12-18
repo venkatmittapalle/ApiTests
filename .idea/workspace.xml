@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa8755fc-1baf-443a-8c3e-a7f18a7df268" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/gorestCrud/Crud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/suites/testNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gorestCrud/DeleteUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gorestCrud/GetUserList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gorestCrud/TestScenarios.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gorestCrud/UptadeUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/payloadBuilder/GorestRequestBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/configs/apiConfigs.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configs/apiConfigs.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/schema/dashboardSchema.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testData/reponseData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testData/requestData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testData/schema.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gorestCrud/Crud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gorestCrud/Crud.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +26,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2q9HnKf2bxlldGqAMCY5u6QolP1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -66,22 +58,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="CreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gorestCrud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gorestCrud" />
-      <option name="MAIN_CLASS_NAME" value="gorestCrud.CreateUser" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Crud">
     <configuration name="Crud" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="API" />
       <extension name="coverage">
@@ -144,13 +121,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Crud" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gorestCrud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gorestCrud" />
+      <option name="MAIN_CLASS_NAME" value="gorestCrud.Crud" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Crud" />
         <item itemvalue="JUnit.Crud" />
         <item itemvalue="JUnit.Crud.getUserList" />
         <item itemvalue="JUnit.DeleteUser" />
         <item itemvalue="JUnit.Crud.createUserList" />
-        <item itemvalue="JUnit.CreateUser" />
       </list>
     </recent_temporary>
   </component>
@@ -182,11 +176,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/gorestApiTest/CreateUserBySerialization.java</url>
           <line>25</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/gorestCrud/Crud.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/gorestCrud/Crud.java</url>
