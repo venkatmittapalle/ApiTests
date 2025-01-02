@@ -19,8 +19,8 @@ public class TestApi {
          Validate the Status code
          Validate the API response body with MockDB Class Attributes using 'For Loop' within TestNG Assertions
          Hint: You can fetch Api response as jsonPath and store them in to List */
-
-        String urlGET = "https://gorest.co.in/public/v2/users";
+      String urlGET = "https://gorest.co.in/public/v2/users";
+        
 
 
     }
@@ -35,8 +35,8 @@ public class TestApi {
      validate the HTTP status Code using Assertions
      Print the Response body
       */
-
         String urlPOST = "https://gorest.co.in/public/v2/users";
+
 
 
     }
@@ -53,6 +53,7 @@ public class TestApi {
         String urlPATCH = "https://gorest.co.in/public/v2/users/{id}";
 
 
+
     }
 
     @Test
@@ -64,6 +65,7 @@ public class TestApi {
      For id Parameter you can fetch a random id from Mock DB(List<Integer> ids)
       */
         String urlDELETE = "https://gorest.co.in/public/v2/users/{id}";
+
 
 
 
