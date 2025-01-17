@@ -16,6 +16,7 @@ public class TestApi {
     @Test
     public void getUserList() {
         /*Create GET Method for below URL using RestAssured.
+         Does not requried header 
          Validate the Status code
          Validate the API response body with MockDB Class Attributes using 'For Loop' within TestNG Assertions
          Hint: You can fetch Api response as jsonPath and store them in to List */
